@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router"
-import { Navbar } from "./components/Navbar"
+import { Navbar } from "./components/shared/Navbar"
 import { AddCity } from "./pages/AddCity"
 import { Index } from "./pages/Index"
 
@@ -11,7 +11,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Index />}/>
-        <Route path='/addCitie' element={<AddCity />}/>
+        <Route path='/addCity' element={<AddCity />}/>
       </Routes>
     </>
   )

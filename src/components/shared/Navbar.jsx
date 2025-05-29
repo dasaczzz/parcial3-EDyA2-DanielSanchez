@@ -7,7 +7,7 @@ export const Navbar = () => {
 
       <ul className='flex items-center align-middle gap-6'>
         <li><Link to='/'>cities</Link></li>
-        <li><Link to='/form'>add city</Link></li>
+        <li><Link to='/addCity'>add city</Link></li>
       </ul>
     </nav>
   )
